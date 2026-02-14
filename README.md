@@ -1,78 +1,69 @@
-🚀 Oasis Infobyte – Java Development Internship Projects
+# 🌟 Oasis Infobyte – Java Development Internship Projects
 
-A collection of Java-based projects completed during the Oasis Infobyte Java Development Internship, focused on building strong programming fundamentals and real-world problem-solving skills.
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/JesciArul/OasisInfobyte-java-development)
+[![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
 
-📖 About This Repository
+Welcome to my **Java Development Internship** repository at **Oasis Infobyte**.  
+This repository contains multiple **console-based Java projects** developed during the internship, showcasing **object-oriented programming**, **data structures**, and **problem-solving skills**.
 
-This repository showcases multiple Java tasks and mini-projects designed to strengthen:
+---
 
-Object-Oriented Programming (OOP)
+## 🗂️ Projects Overview
 
-Core Java concepts
+| Project | Description | Key Features |
+|---------|-------------|--------------|
+| **ATM Interface** | Console-based ATM simulator | Login, Deposit, Withdraw, Transfer, Transaction History |
+| **Digital Library Management System** | Library management for admin & users | Admin: Add/Delete/View Books, User: Issue/Return/Search Books |
+| **Number Guessing Game** | Interactive number guessing game | Random number, Attempts tracking, Score calculation |
+| **Online Examination System** | Timed examination simulation | Login, Update Password, Start Exam, Auto Submission |
+| **Online Reservation System** | Train ticket reservation & cancellation | Login authentication, Book/Cancel tickets, PNR generation |
 
-Logical problem solving
+---
 
-Clean coding practices
+## 💻 Technologies Used
 
-Each folder represents an independent task or project.
+- **Java SE (JDK 8+)**
+- **Object-Oriented Programming (OOP)**
+- **ArrayLists & Scanner** for data storage and input
+- **Control Structures**: if-else, loops, switch-case
+- **Console-based interactive UI**
 
-🛠️ Tech Stack
+---
 
-Java (Core Java)
+## 🚀 How to Run
 
-OOP Principles
+1. **Clone the repository**:
 
-Exception Handling
-
-File Handling (where applicable)
-
-Basic Data Structures
-
-📂 Project Structure
-OasisInfobyte-java-development/
-│
-├── Task1/   → Java program & resources
-├── Task2/   → Java program & resources
-├── Task3/   → Java program & resources
-└── README.md
-
-▶️ How to Run
-Clone the repository
+```bash
 git clone https://github.com/JesciArul/OasisInfobyte-java-development.git
+2. **Navigate to project folder**:
 
-Navigate & compile
-cd OasisInfobyte-java-development
-javac FileName.java
-java FileName
+```bash
+cd "OasisInfobyte-java-development/java dev"
+3. **Compile Java files**:
 
+```bash
+javac *.java
+4. **Run a project**:
 
-(You can also open directly in IntelliJ, Eclipse, or VS Code)
+```bash
+java ATMInterface
+java DigitalLibrary
+java NumberGuessingGame
+java OnlineExamSystem
+java OnlineReservationSystem
 
-🎯 Key Learnings
+Follow the on-screen instructions for each program.
+---
+## 📂 Folder Structure
+```nginx
+java dev/
+├─ ATMInterface.java
+├─ DigitalLibrary.java
+├─ NumberGuessingGame.java
+├─ OnlineExamSystem.java
+├─ OnlineReservationSystem.java
+└─ README.md
+---
+##✨ Key Learning Outcomes
 
-✅ Strong Java fundamentals
-✅ Real project experience
-✅ Improved debugging skills
-✅ Practical OOP usage
-✅ Writing clean & structured code
-
-🌟 Highlights
-
-Beginner-friendly programs
-
-Well-structured folders
-
-Easy to understand code
-
-Internship verified tasks
-
-👩‍💻 Author
-
-Jesci Arul
-Java Developer Intern
-
-🔗 GitHub: https://github.com/JesciArul
-
-📜 License
-
-This repository is created for learning and educational purposes.
