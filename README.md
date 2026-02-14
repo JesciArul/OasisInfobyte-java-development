@@ -31,6 +31,20 @@ Perfect for:
 
 <br>
 
+---
+
+## 🗂️ Projects Overview
+
+| Project | Description | Key Features |
+|---------|-------------|--------------|
+| **ATM Interface** | Console-based ATM simulator | Login, Deposit, Withdraw, Transfer, Transaction History |
+| **Digital Library Management System** | Library management for admin & users | Admin: Add/Delete/View Books, User: Issue/Return/Search Books |
+| **Number Guessing Game** | Interactive number guessing game | Random number, Attempts tracking, Score calculation |
+| **Online Examination System** | Timed examination simulation | Login, Update Password, Start Exam, Auto Submission |
+| **Online Reservation System** | Train ticket reservation & cancellation | Login authentication, Book/Cancel tickets, PNR generation |
+
+---
+
 ## 🛠️ Projects Showcase
 
 ### 1. ATM Interface 🏧
