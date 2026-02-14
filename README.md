@@ -1,83 +1,157 @@
-# 🌟 Oasis Infobyte – Java Development Internship Projects
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=java&logoColor=white" alt="Java 17+"/>
+  <img src="https://img.shields.io/badge/OOP-Applied-blue?style=for-the-badge" alt="OOP"/>
+  <img src="https://img.shields.io/badge/Internship-Completed-success?style=for-the-badge&logo=checkmarx" alt="Completed"/>
+  <img src="https://img.shields.io/github/license/JesciArul/OasisInfobyte-java-development?style=for-the-badge" alt="License"/>
+</p>
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/JesciArul/OasisInfobyte-java-development)
-[![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
+<h1 align="center">🚀 Oasis Infobyte – Java Development Internship Projects</h1>
+<h3 align="center">Hands-on console applications built to master Core Java & OOP concepts</h3>
 
-Welcome to my **Java Development Internship** repository at **Oasis Infobyte**.  
-This repository contains multiple **console-based Java projects** developed during the internship, showcasing **object-oriented programming**, **data structures**, and **problem-solving skills**.
+<br>
+
+## 🌟 About The Internship
+
+This repository contains **five console-based Java applications** developed during my **Java Development Internship at Oasis Infobyte** (February 2026).
+
+These projects helped me practice:
+
+- Core Java syntax and logic
+- Object-Oriented Programming (OOP)
+- ArrayLists and data management
+- Input validation and exception handling
+- Menu-driven interactive console programs
+- Transaction & workflow simulation (ATM, Library, Exam, Reservations)
+
+Perfect for:
+
+- Java beginners and intermediate learners  
+- Students preparing for Java internships  
+- Anyone building a strong foundation before GUI, JDBC, or Spring Boot
+
+<br>
+
+## 🛠️ Projects Showcase
+
+### 1. ATM Interface 🏧
+
+Simulates a real ATM banking system.
+
+**Features:**
+
+- 4-digit PIN authentication  
+- Check balance  
+- Deposit money  
+- Withdraw money (with insufficient balance handling)  
+- Transfer funds between accounts  
+- Transaction history preview  
+
+View source → [ATMInterface.java](https://github.com/JesciArul/OasisInfobyte-java-development/blob/main/java%20dev/ATMInterface.java)
 
 ---
 
-## 🗂️ Projects Overview
+### 2. Digital Library Management System 📚
 
-| Project | Description | Key Features |
-|---------|-------------|--------------|
-| **ATM Interface** | Console-based ATM simulator | Login, Deposit, Withdraw, Transfer, Transaction History |
-| **Digital Library Management System** | Library management for admin & users | Admin: Add/Delete/View Books, User: Issue/Return/Search Books |
-| **Number Guessing Game** | Interactive number guessing game | Random number, Attempts tracking, Score calculation |
-| **Online Examination System** | Timed examination simulation | Login, Update Password, Start Exam, Auto Submission |
-| **Online Reservation System** | Train ticket reservation & cancellation | Login authentication, Book/Cancel tickets, PNR generation |
+Manages books for admins and users.
 
----
+**Features:**
 
-## 💻 Technologies Used
+- Admin: Add/Delete/View Books  
+- User: Issue/Return/Search Books  
+- Menu-driven interface  
+- ArrayList-based book management  
 
-- **Java SE (JDK 8+)**
-- **Object-Oriented Programming (OOP)**
-- **ArrayLists & Scanner** for data storage and input
-- **Control Structures**: if-else, loops, switch-case
-- **Console-based interactive UI**
+View source → [DigitalLibrary.java](https://github.com/JesciArul/OasisInfobyte-java-development/blob/main/java%20dev/DigitalLibrary.java)
 
 ---
 
-## 🚀 How to Run
+### 3. Number Guessing Game 🎲
 
-1. **Clone the repository**:
+Interactive number guessing game.
 
-```bash
-git clone https://github.com/JesciArul/OasisInfobyte-java-development.git
-2. **Navigate to project folder**:
+**Features:**
 
-```bash
-cd "OasisInfobyte-java-development/java dev"
-3. **Compile Java files**:
+- Random number generation (1–100)  
+- Limited attempts with feedback (High/Low)  
+- Score calculation based on attempts  
+- Play multiple rounds  
 
-```bash
-javac *.java
-4. **Run a project**:
+View source → [NumberGuessingGame.java](https://github.com/JesciArul/OasisInfobyte-java-development/blob/main/java%20dev/NumberGuessingGame.java)
 
-```bash
-java ATMInterface
-java DigitalLibrary
-java NumberGuessingGame
-java OnlineExamSystem
-java OnlineReservationSystem
-
-Follow the on-screen instructions for each program.
 ---
-## 📂 Folder Structure
-```nginx
-java dev/
-├─ ATMInterface.java
-├─ DigitalLibrary.java
-├─ NumberGuessingGame.java
-├─ OnlineExamSystem.java
-├─ OnlineReservationSystem.java
-└─ README.md
+
+### 4. Online Examination System 📝
+
+Console-based exam simulator.
+
+**Features:**
+
+- Login system for users  
+- Timed exam with auto-submit  
+- Update password option  
+- Multiple-choice questions with scoring  
+- Exam result display  
+
+View source → [OnlineExamSystem.java](https://github.com/JesciArul/OasisInfobyte-java-development/blob/main/java%20dev/OnlineExamSystem.java)
+
 ---
-##✨ Key Learning Outcomes
-Built real-world Java applications using OOP concepts.
 
-Developed menu-driven console programs with user input handling.
+### 5. Online Reservation System 🎫
 
-Implemented transaction and data management using ArrayLists.
+Simulates train ticket booking & cancellation.
 
-Improved problem-solving skills and logical thinking for multiple scenarios.
+**Features:**
 
-📌 Notes
+- Admin login authentication  
+- Book tickets with PNR generation  
+- Cancel tickets with confirmation  
+- Menu-driven interface  
+- Reservation history management  
 
-All programs are console-based and self-contained.
+View source → [OnlineReservationSystem.java](https://github.com/JesciArul/OasisInfobyte-java-development/blob/main/java%20dev/OnlineReservationSystem.java)
 
-Pre-defined credentials are used for demonstration.
+<br>
 
-This repository serves as a portfolio of Java projects completed during the internship.
+## ⚡ Key Features Across Projects
+
+- 🛡️ **Strong input validation & error handling**  
+- 📋 **Menu-driven user experience**  
+- 🧹 **Clean and modular code structure**  
+- ♻️ **Object-Oriented Programming principles** applied  
+- 🔄 **Reusability and modular design** for easy extension  
+
+<br>
+
+## 🛠️ Technologies & Concepts Used
+
+- **Java SE (JDK 8 / 11 / 17 compatible)**  
+- **Core OOP concepts:** Classes, Objects, Encapsulation, Methods  
+- **Collections:** ArrayList for managing transactions, books, tasks  
+- **Control structures:** Loops, if-else, switch-case  
+- **Input handling:** Scanner  
+- **Console-based menus** for interactive workflow  
+
+<br>
+
+## 🎯 Learning Outcomes
+
+Through these projects, I strengthened:
+
+- Solid Core Java fundamentals  
+- Practical OOP implementation  
+- Building interactive console applications  
+- Writing robust and readable code  
+- Logical problem-solving and debugging  
+- Code documentation & project organization  
+
+This foundation prepares me for next steps: **Spring Boot • JDBC • REST APIs • Android Development**
+
+<br>
+
+---
+
+⭐ If this helped you learn Java — please give a star!  
+
+Made with 💙 during Java Development Internship – February 2026  
+
+Happy Coding! ☕
